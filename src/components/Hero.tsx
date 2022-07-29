@@ -62,7 +62,7 @@ export default function Hero(): JSX.Element {
       </div>
       <div className="tw-px-4 tw-mt-8">
         <div className="tw-text-gray-400 tw-mt-2">
-          Tap the play button above of copy the link below to get started
+          Tap the play button above or <br /> open the link below in a browser to get started
         </div>
         <br/>
         <input

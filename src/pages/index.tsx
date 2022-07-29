@@ -8,7 +8,7 @@ export default function Home(): JSX.Element {
   return (
     <Layout description="Start Accepting Bitcoin Payments With 0% Fees & No Third-party.">
       <Head>
-        <title>https://getlucre.xyz - Crypto Payment Processor</title>
+        <title>Lucre - Crypto Payment Processor</title>
       </Head>
       <Hero />
       {/*<Testimonials />*/}

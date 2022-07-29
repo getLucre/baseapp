@@ -107,7 +107,7 @@ const config = {
           src: "img/lucre-logo.svg",
           srcDark: "img/lucre-logo.svg",
         },
-        copyright: `Copyright © ${new Date().getFullYear()} GetLucre. All rights reserved`,
+        copyright: `Copyright © ${new Date().getFullYear()} Lucre. All rights reserved`,
       },
       prism: {
         theme: lightCodeTheme,
