@@ -12,16 +12,16 @@ const partners: Partner[] = [
     logo: "/partners/quidax.svg",
   },
   {
-    href: "https://www.linode.com",
-    logo: "/partners/linode.svg",
-  },
-  {
     href: "https://fluidcoins.com",
     logo: "/partners/fluidcoin.svg",
   },
   {
     href: "https://scalex.africa",
     logo: "/partners/scalex.svg",
+  },
+  {
+    href: "https://www.orchestrate.finance/",
+    logo: "/partners/orchestrate.svg",
   },
 ];
 
