@@ -7,7 +7,8 @@ COPY package.json ./
 #RUN npm ci --silent
 RUN npm install react-scripts@latest -g --silent
 COPY . ./
-RUN yarn start
+RUN yarn install
+RUN yarn run biuld
 
 # production environment
 FROM nginx:stable-alpine
