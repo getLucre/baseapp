@@ -11,9 +11,9 @@ export default function Pricing(): JSX.Element {
           How much <br className="hidden--lg" />
           does it cost?
         </h1>
-        <p className={styles.subheading}>
-          If you are a developer, you can use Easypanel for free.
-        </p>
+        {/*<p className={styles.subheading}>*/}
+        {/*  If you are a developer, you can use Easypanel for free.*/}
+        {/*</p>*/}
         <div className={styles.plans}>
           <div className={clsx(styles.plan, styles.planDeveloper)}>
             <h2 className={styles.planName}>Developer Edition</h2>
