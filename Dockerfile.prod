@@ -5,10 +5,11 @@ ENV PATH /app/node_modules/.bin:$PATH
 COPY package.json ./
 #COPY package-lock.json ./
 #RUN npm ci --silent
+RUN npm install -g npm@8.15.1 --silent
 RUN npm install react-scripts@latest -g --silent
 COPY . ./
 RUN yarn install
-RUN yarn biuld
+RUN yarn run build
 
 # production environment
 FROM nginx:stable-alpine
