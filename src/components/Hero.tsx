@@ -30,12 +30,12 @@ export default function Hero(): JSX.Element {
     <section className="tw-py-24 lg:tw-py-32 tw-text-center">
       <h1 className="tw-text-4xl lg:tw-text-7xl tw-tracking-tight tw-leading-none tw-font-extrabold tw-px-4">
         <span className="tw-text-transparent tw-bg-clip-text tw-bg-gradient-to-r tw-to-cyan-400 tw-from-emerald-600">
-          Accept Bitcoin & Lightning
+          Accept
         </span>
-        {/*  <br />*/}
-        {/*<span className="tw-text-transparent tw-bg-clip-text tw-bg-gradient-to-r tw-to-cyan-400 tw-from-emerald-600">*/}
-        {/*  Bitcoin & Lightning*/}
-        {/*</span>*/}
+          <br />
+        <span className="tw-text-transparent tw-bg-clip-text tw-bg-gradient-to-r tw-to-cyan-400 tw-from-emerald-600">
+          Bitcoin & Lightning
+        </span>
         <br /> Payments With 0% Fees
       </h1>
       <p className="tw-text-lg lg:tw-text-xl tw-font-normal tw-text-gray-400 tw-max-w-2xl tw-mx-auto tw-px-4">
@@ -73,21 +73,21 @@ export default function Hero(): JSX.Element {
           readOnly
         />
       </div>
-      <div className="tw-mt-16 tw-flex tw-overflow-x-auto no-scrollbar tw-p-10 tw-justify-between tw-gap-10 tw-max-w-4xl tw-mx-auto">
-        {partners.map((partner, index) => (
-          <Link
-            key={index}
-            href={partner.href}
-            target="_blank"
-            className="tw-opacity-30 hover:tw-opacity-100 tw-transition"
-          >
-            <img
-              src={partner.logo}
-              className="tw-h-8 lg:tw-h-10 tw-inline-block tw-max-w-none"
-            />
-          </Link>
-        ))}
-      </div>
+      {/*<div className="tw-mt-16 tw-flex tw-overflow-x-auto no-scrollbar tw-p-10 tw-justify-between tw-gap-10 tw-max-w-4xl tw-mx-auto">*/}
+      {/*  {partners.map((partner, index) => (*/}
+      {/*    <Link*/}
+      {/*      key={index}*/}
+      {/*      href={partner.href}*/}
+      {/*      target="_blank"*/}
+      {/*      className="tw-opacity-30 hover:tw-opacity-100 tw-transition"*/}
+      {/*    >*/}
+      {/*      <img*/}
+      {/*        src={partner.logo}*/}
+      {/*        className="tw-h-8 lg:tw-h-10 tw-inline-block tw-max-w-none"*/}
+      {/*      />*/}
+      {/*    </Link>*/}
+      {/*  ))}*/}
+      {/*</div>*/}
     </section>
   );
 }
