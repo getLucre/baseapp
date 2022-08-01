@@ -7,22 +7,22 @@ type Partner = {
 };
 
 const partners: Partner[] = [
-  {
-    href: "https://quidax.com",
-    logo: "/partners/quidax.svg",
-  },
-  {
-    href: "https://fluidcoins.com",
-    logo: "/partners/fluidcoin.svg",
-  },
-  {
-    href: "https://scalex.africa",
-    logo: "/partners/scalex.svg",
-  },
-  {
-    href: "https://www.orchestrate.finance/",
-    logo: "/partners/orchestrate.svg",
-  },
+  // {
+  //   href: "https://quidax.com",
+  //   logo: "/partners/quidax.svg",
+  // },
+  // {
+  //   href: "https://fluidcoins.com",
+  //   logo: "/partners/fluidcoin.svg",
+  // },
+  // {
+  //   href: "https://scalex.africa",
+  //   logo: "/partners/scalex.svg",
+  // },
+  // {
+  //   href: "https://www.orchestrate.finance/",
+  //   logo: "/partners/orchestrate.svg",
+  // },
 ];
 
 export default function Hero(): JSX.Element {
@@ -30,17 +30,17 @@ export default function Hero(): JSX.Element {
     <section className="tw-py-24 lg:tw-py-32 tw-text-center">
       <h1 className="tw-text-4xl lg:tw-text-7xl tw-tracking-tight tw-leading-none tw-font-extrabold tw-px-4">
         <span className="tw-text-transparent tw-bg-clip-text tw-bg-gradient-to-r tw-to-cyan-400 tw-from-emerald-600">
-          Start Accepting
+          Accept Bitcoin & Lightning
         </span>
-          <br />
-        <span className="tw-text-transparent tw-bg-clip-text tw-bg-gradient-to-r tw-to-cyan-400 tw-from-emerald-600">
-          Bitcoin & Lightning
-        </span>
+        {/*  <br />*/}
+        {/*<span className="tw-text-transparent tw-bg-clip-text tw-bg-gradient-to-r tw-to-cyan-400 tw-from-emerald-600">*/}
+        {/*  Bitcoin & Lightning*/}
+        {/*</span>*/}
         <br /> Payments With 0% Fees
       </h1>
       <p className="tw-text-lg lg:tw-text-xl tw-font-normal tw-text-gray-400 tw-max-w-2xl tw-mx-auto tw-px-4">
-          Lucre is a non-custodial cryptocurrency payment processor.
-          It's secure, private, censorship-resistant and free.
+          Lucre is a non-custody cryptocurrency payment infrastructure for businesses.
+          It's permissionless, censorship-resistant and secure.
       </p>
       <div className="tw-mt-8 tw-flex tw-justify-center">
         <Link
