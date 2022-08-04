@@ -1,5 +1,5 @@
 {
-  "name": "getlucre",
+  "name": "lucre",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -25,7 +25,6 @@
     "postcss": "^8.4.14",
     "prism-react-renderer": "^1.2.1",
     "react": "^17.0.1",
-    "react-dom": "^17.0.1",
     "tailwindcss": "^3.0.24"
   },
   "devDependencies": {
