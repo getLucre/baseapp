@@ -104,7 +104,7 @@ const config = {
             label: 'Get Started',
             href: 'https://dashboard.getlucre.xyz',
             position: 'right',
-            className: 'tw-text-transparent tw-bg-clip-text tw-to-cyan-400 tw-from-emerald-600',
+            className: 'tw-text-transparent tw-bg-clip-text tw-bg-gradient-to-r tw-to-cyan-400 tw-from-emerald-600',
           },
         ],
       },
