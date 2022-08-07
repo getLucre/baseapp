@@ -24,14 +24,14 @@ const config = {
         docs: {
           // sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
-          editUrl: "https://github.com/getLucre/lucre-baseapp/tree/master/docs",
+          editUrl: "https://github.com/getLucre/lucre-baseapp/tree/master",
           breadcrumbs: false,
           sidebarCollapsed: true,
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
-          editUrl: "https://github.com/getLucre/lucre-baseapp/tree/main",
+          editUrl: "https://github.com/getLucre/lucre-baseapp/tree/master",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
