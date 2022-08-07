@@ -7,22 +7,18 @@ type Partner = {
 };
 
 const partners: Partner[] = [
-  // {
-  //   href: "https://quidax.com",
-  //   logo: "/partners/quidax.svg",
-  // },
-  // {
-  //   href: "https://fluidcoins.com",
-  //   logo: "/partners/fluidcoin.svg",
-  // },
-  // {
-  //   href: "https://scalex.africa",
-  //   logo: "/partners/scalex.svg",
-  // },
-  // {
-  //   href: "https://www.orchestrate.finance/",
-  //   logo: "/partners/orchestrate.svg",
-  // },
+  {
+    href: "https://www.orchestrate.finance/",
+    logo: "/partners/orchestrate.svg",
+  },
+  {
+    href: "https://quidax.com",
+    logo: "/partners/quidax.svg",
+  },
+  {
+    href: "https://scalex.africa",
+    logo: "/partners/scalex.svg",
+  },
 ];
 
 export default function Hero(): JSX.Element {
@@ -73,21 +69,21 @@ export default function Hero(): JSX.Element {
           readOnly
         />
       </div>
-      {/*<div className="tw-mt-16 tw-flex tw-overflow-x-auto no-scrollbar tw-p-10 tw-justify-between tw-gap-10 tw-max-w-4xl tw-mx-auto">*/}
-      {/*  {partners.map((partner, index) => (*/}
-      {/*    <Link*/}
-      {/*      key={index}*/}
-      {/*      href={partner.href}*/}
-      {/*      target="_blank"*/}
-      {/*      className="tw-opacity-30 hover:tw-opacity-100 tw-transition"*/}
-      {/*    >*/}
-      {/*      <img*/}
-      {/*        src={partner.logo}*/}
-      {/*        className="tw-h-8 lg:tw-h-10 tw-inline-block tw-max-w-none"*/}
-      {/*      />*/}
-      {/*    </Link>*/}
-      {/*  ))}*/}
-      {/*</div>*/}
+      <div className="tw-mt-16 tw-flex tw-overflow-x-auto no-scrollbar tw-p-10 tw-justify-between tw-gap-10 tw-max-w-4xl tw-mx-auto">
+        {partners.map((partner, index) => (
+          <Link
+            key={index}
+            href={partner.href}
+            target="_blank"
+            className="tw-opacity-30 hover:tw-opacity-100 tw-transition"
+          >
+            <img
+              src={partner.logo}
+              className="tw-h-8 lg:tw-h-10 tw-inline-block tw-max-w-none"
+            />
+          </Link>
+        ))}
+      </div>
     </section>
   );
 }

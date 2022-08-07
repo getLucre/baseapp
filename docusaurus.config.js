@@ -95,7 +95,8 @@ const config = {
           // { to: "/templates", label: "Templates", position: "left" }, // See https://github.com/easypanel-io/website/tree/main/docs on usage
           // { to: "/blog", label: "Blog", position: "right" }, // See https://github.com/easypanel-io/website/tree/main/docs on usage
           // { to: "/docs", label: "Docs", position: "right" }, // create doc folder on the root of the app and place your md files there. it will work. See https://github.com/easypanel-io/website/tree/main/docs
-          // { to: "/features", label: 'Features', position: 'left', className: 'tw-text-transparent tw-bg-clip-text tw-bg-gradient-to-r tw-to-cyan-400 tw-from-emerald-600'},
+          // { to: "/docs/features", label: 'Features', position: 'left', className: 'tw-text-transparent tw-bg-clip-text tw-bg-gradient-to-r tw-to-cyan-400 tw-from-emerald-600'},
+          { to: "/docs/features", label: 'Features', position: 'left'},
           {
             type: 'localeDropdown',
             position: 'right',
@@ -104,7 +105,6 @@ const config = {
             label: 'Get Started',
             href: 'https://dashboard.getlucre.xyz',
             position: 'right',
-            // className: 'tw-text-transparent tw-bg-clip-text tw-bg-gradient-to-r tw-to-cyan-400 tw-from-emerald-600',
           },
         ],
       },
