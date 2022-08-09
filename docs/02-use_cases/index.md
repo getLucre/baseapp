@@ -1,12 +1,10 @@
-import Tabs from "@theme/Tabs";
-import TabItem from "@theme/TabItem";
-
 # Who can use Lucre?
 
 Lucre is adaptable for variety of needs of businesses and individuals who wants to use Lucre to take payments, regardless of geographic, political or financial barriers.
 
 Below are the most common use-cases for Lucre:
 
+:::info
 - Merchants who sell products and services online or in a physical store.
   
 - Charities and non-profits looking to accept donations or crowdfund their dream project.
@@ -23,4 +21,5 @@ Below are the most common use-cases for Lucre:
   their wealth themselves with full rights. 
   
 - Merchants/Individuals who prefer to keep their own Hardware Wallet (Bank) and take payments directly into 
-  from anywhere in the world with full right to their wealth/money. 
+  from anywhere in the world with full right to their wealth/money.
+:::
