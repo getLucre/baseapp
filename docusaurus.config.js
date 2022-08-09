@@ -97,6 +97,7 @@ const config = {
           // { to: "/docs", label: "Docs", position: "right" }, // create doc folder on the root of the app and place your md files there. it will work. See https://github.com/easypanel-io/website/tree/main/docs
           // { to: "/docs/features", label: 'Features', position: 'left', className: 'tw-text-transparent tw-bg-clip-text tw-bg-gradient-to-r tw-to-cyan-400 tw-from-emerald-600'},
           { to: "/docs/features", label: 'Features', position: 'left'},
+          { to: "/docs/use_cases", label: 'Use Case', position: 'left'},
           {
             type: 'localeDropdown',
             position: 'right',
