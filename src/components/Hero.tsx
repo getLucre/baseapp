@@ -26,17 +26,13 @@ export default function Hero(): JSX.Element {
     <section className="tw-py-24 lg:tw-py-32 tw-text-center">
       <h1 className="tw-text-4xl lg:tw-text-7xl tw-tracking-tight tw-leading-none tw-font-extrabold tw-px-4">
         <span className="tw-text-transparent tw-bg-clip-text tw-bg-gradient-to-r tw-to-cyan-400 tw-from-emerald-600">
-          Accept
+          Accept Crypto Payments
         </span>
-          <br />
-        <span className="tw-text-transparent tw-bg-clip-text tw-bg-gradient-to-r tw-to-cyan-400 tw-from-emerald-600">
-          Bitcoin & Lightning
-        </span>
-        <br /> Payments With 0% Fees
+        <br /> With No Fees & Full Control
       </h1>
       <p className="tw-text-lg lg:tw-text-xl tw-font-normal tw-text-gray-400 tw-max-w-2xl tw-mx-auto tw-px-4">
-          Lucre is a non-custody cryptocurrency payment infrastructure for businesses.
-          It's permissionless, censorship-resistant and secure.
+          Lucre helps you take crypto (Bitcoin & Lightning) payments for goods and services worldwide (both online and in a physical store),
+          with full control / rights to your money.
       </p>
       <div className="tw-mt-8 tw-flex tw-justify-center">
         <Link
