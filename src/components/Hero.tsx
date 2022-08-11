@@ -26,7 +26,10 @@ export default function Hero(): JSX.Element {
     <section className="tw-py-24 lg:tw-py-32 tw-text-center">
       <h1 className="tw-text-4xl lg:tw-text-7xl tw-tracking-tight tw-leading-none tw-font-extrabold tw-px-4">
         <span className="tw-text-transparent tw-bg-clip-text tw-bg-gradient-to-r tw-to-cyan-400 tw-from-emerald-600">
-          Accept Crypto Payments
+          Accept
+        </span><br />
+        <span className="tw-text-transparent tw-bg-clip-text tw-bg-gradient-to-r tw-to-cyan-400 tw-from-emerald-600">
+          Crypto Payments
         </span>
         <br /> With No Fees & Full Control
       </h1>
