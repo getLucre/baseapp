@@ -111,11 +111,14 @@ const config = {
       },
       footer: {
         logo: {
-          alt: "GetLucre Logo",
-          src: "img/lucre-logo.svg",
-          srcDark: "img/lucre-logo.svg",
+          alt: "Lucre Logo",
+          src: "img/lucre-logo.png",
+          srcDark: "img/lucre-logo.png",
+          href: 'https://getlucre.xyz',
+          width: 160,
+          height: 61,
         },
-        copyright: `Copyright © ${new Date().getFullYear()} Lucre. All rights reserved`,
+        copyright: `Copyright © ${new Date().getFullYear()} Lucre. All rights reserved.`,
       },
       prism: {
         theme: lightCodeTheme,
