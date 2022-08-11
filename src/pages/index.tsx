@@ -11,7 +11,7 @@ export default function Home(): JSX.Element {
           <meta property="og:title" content="Lucre - Crypto Payment Processor" />
           <meta name="twitter:title" content="Lucre - Crypto Payment Processor" />
 
-          <meta name="description" content="Accept Bitcoin & Lightning Payments With 0% Fees." />
+          <meta name="description" content="Lucre helps you take crypto (Bitcoin & Lightning) payments for goods and services worldwide (both online and in a physical store), with full control / rights to your money." />
           <meta property="og:description" content="Lucre helps you take crypto (Bitcoin & Lightning) payments for goods and services worldwide (both online and in a physical store), with full control / rights to your money." />
           <meta name="twitter:description" content="Lucre helps you take crypto (Bitcoin & Lightning) payments for goods and services worldwide (both online and in a physical store), with full control / rights to your money." />
 

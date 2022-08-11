@@ -34,8 +34,7 @@ export default function Hero(): JSX.Element {
         <br /> With No Fees & Full Control
       </h1>
       <p className="tw-text-lg lg:tw-text-xl tw-font-normal tw-text-gray-400 tw-max-w-2xl tw-mx-auto tw-px-4">
-          Lucre helps you take crypto (Bitcoin & Lightning) payments for goods and services worldwide (both online and in a physical store),
-          with full control / rights to your money.
+          Lucre helps you take crypto (Bitcoin & Lightning) payments for goods and services worldwide (both online and in a physical store), with full control / rights to your money.
       </p>
       <div className="tw-mt-8 tw-flex tw-justify-center">
         <Link
