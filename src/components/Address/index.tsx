@@ -9,7 +9,7 @@ export default function Newsletter(): JSX.Element {
                 <div>
                     <h2 className={styles.heading}>Address</h2>
                     <p>
-                        No 4B, George Street, Off Mobolaji Johnson Avenue, Ikoyi, Lagos.
+                        No 4B, Amazing Grace Villa, George Street, Off Mobolaji Johnson Avenue, Ikoyi, Lagos.
                     </p>
                     <p>
                         <a target="_blank" href="mailto:support@getlucre.xyz">support@getlucre.xyz</a>{" "}
