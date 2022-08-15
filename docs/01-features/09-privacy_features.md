@@ -22,8 +22,8 @@ There could be potential for privacy to be partially undermined on the network. 
 
 Tor is the most popular low-latency anonymity network. Tor is based on ideas
 of onion routing and telescoping path-building design. When a
-user wants to connect to an Internet server while keeping his IP
-address in secret from the server he chooses a path consisting
+user wants to connect to an Internet server while keeping his/her IP
+address in secret from the server he/she chooses, a path consisting
 of three Tor relays (called Guard, Middle and Exit), builds a
 circuit and negotiates symmetric keys with each one of them
 using the telescoping technique. Before sending a message to
